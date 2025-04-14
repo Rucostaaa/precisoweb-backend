@@ -22,8 +22,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const allowedOrigins = [
-  'http://localhost:3000',
-  'http://192.168.1.71:3000' // Allow your local IP address as well
+  'https://precisoweb-frontend.onrender.com/',
 ];
 
 app.use(cors({
