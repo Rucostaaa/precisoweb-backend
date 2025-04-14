@@ -22,7 +22,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const allowedOrigins = [
-  'https://precisoweb-frontend.onrender.com/',
+  'http://precisoweb-frontend.onrender.com','https://precisoweb-frontend.onrender.com','precisoweb-frontend.onrender.com'
 ];
 
 app.use(cors({
